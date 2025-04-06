@@ -3,3 +3,4 @@ opencv-python-headless==4.9.0.80
 numpy
 streamlit-webrtc==0.45.0
 av
+qrcode
