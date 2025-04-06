@@ -135,7 +135,7 @@ elif mode == "User":
                     matches = self.matcher.match(des_frame, all_desc_refs)
                     score = sum([m.distance for m in matches]) / len(matches) if matches else float("inf")
 
-                    if score < best_score and len(matches) > 10:  # kasih minimal match juga
+                    if score < best_score and len(matches) > 30:  # kasih minimal match juga
                         best_score = score
                         best_message = entry["message"]
 
